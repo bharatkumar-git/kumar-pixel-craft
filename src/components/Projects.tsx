@@ -5,58 +5,46 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    name: "TaskFlow",
+    name: "Daily Mood Tracker",
     description:
-      "A Kanban-style task manager built with React, Node.js, and MongoDB for seamless project management.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/bharatkumar-git/taskflow",
-    role: "Full Stack Developer",
-    duration: "3 months",
-  },
-  {
-    name: "E-Commerce Platform",
-    description:
-      "Modern e-commerce solution with payment integration, user authentication, and real-time inventory management.",
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com/bharatkumar-git",
-    role: "Lead Developer",
-    duration: "4 months",
-  },
-  {
-    name: "Weather Dashboard",
-    description:
-      "Real-time weather application with interactive maps and detailed forecasts using external APIs.",
-    tech: ["React", "JavaScript", "CSS", "API Integration"],
-    github: "https://github.com/bharatkumar-git",
-    role: "Frontend Developer",
-    duration: "1 month",
-  },
-  {
-    name: "Blog CMS",
-    description:
-      "Content management system with rich text editor, media management, and user role permissions.",
+      "A react app which tracks moods (happy, sad, neutral etc.) with a note for the day and reports of the month",
     tech: ["React", "Node.js", "Express", "SQL"],
-    github: "https://github.com/bharatkumar-git",
-    role: "Full Stack Developer",
-    duration: "2 months",
+    github: "https://github.com/bharatkumar-git/react-mini-ccbp",
   },
   {
-    name: "Chat Application",
+    name: "NxtWatch",
     description:
-      "Real-time messaging app with WebSocket support, group chats, and file sharing capabilities.",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-    github: "https://github.com/bharatkumar-git",
-    role: "Full Stack Developer",
-    duration: "2 months",
+      "Video Sharing Platform (Youtube Clone)",
+    tech: ["React", "JavaScript", "CSS", "API Integration"],
+    github: "https://github.com/bharatkumar-git/nxtwatch-app-ccbp",
   },
   {
-    name: "Portfolio Generator",
+    name: "RestoCafe",
     description:
-      "SaaS platform for creating professional portfolios with customizable themes and templates.",
-    tech: ["React", "Python", "SQL", "CSS"],
-    github: "https://github.com/bharatkumar-git",
-    role: "Lead Developer",
-    duration: "3 months",
+      "A restaurant app to show available food items and place an order",
+    tech: ["React", "JavaScript", "CSS", "API Integration"],
+    github: "https://github.com/bharatkumar-git/resto-cafe-ccbp",
+  },
+  {
+    name: "Twitter Clone (backend)",
+    description:
+      "Backend logic for twitter like app with user authentication and authorization",
+    tech: ["Node.js", "Express", "SQL"],
+    github: "https://github.com/bharatkumar-git/twitter-node-ccbp",
+  },
+  {
+    name: "Todo App",
+    description:
+      "Backend logic for todo app for simple queries",
+    tech: ["Node.js", "Express", "SQL"],
+    github: "https://github.com/bharatkumar-git/todo-node-ccbp",
+  },
+  {
+    name: "NxtTrendz",
+    description:
+      "e-commerce web app (Flipcart clone)",
+    tech: ["React", "JavaScript", "CSS", "API Integration"],
+    github: "https://github.com/bharatkumar-git/nxt-trendz-ccbp",
   },
 ];
 
@@ -110,13 +98,13 @@ export const Projects = () => {
                 ))}
               </div>
 
-              {/* Project info */}
+              {/* Project info 
               <div className="text-sm text-muted-foreground mb-4">
                 <div className="flex justify-between">
                   <span className="font-medium">{project.role}</span>
                   <span>{project.duration}</span>
                 </div>
-              </div>
+              </div>*/}
 
               {/* Buttons */}
               <div className="flex gap-3">

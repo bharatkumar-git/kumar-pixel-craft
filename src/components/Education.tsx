@@ -8,13 +8,13 @@ const educationData = [
     program: "Career Building Program",
     description: "Full Stack Development (MERN Stack)",
     link: "https://www.linkedin.com/in/bharatkumart",
-    year: "2023 - 2024",
+    year: "2024 - 2025",
   },
   {
-    institution: "University/College",
-    program: "Higher Education",
-    description: "Computer Science & Technology",
-    year: "Ongoing",
+    institution: "Parul University",
+    program: "B Tech",
+    description: "Electronics and Communication",
+    year: "2020-20224",
   },
 ];
 

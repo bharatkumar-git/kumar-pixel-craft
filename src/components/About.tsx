@@ -6,7 +6,7 @@ const stats = [
   {
     icon: TrendingUp,
     label: "Experience",
-    value: "2+ years",
+    value: "1+ years",
   },
   {
     icon: Code2,
