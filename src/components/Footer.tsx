@@ -13,7 +13,7 @@ export const Footer = () => {
             className="text-center md:text-left"
           >
             <p className="text-muted-foreground flex items-center gap-2 justify-center md:justify-start">
-              © 2025 Bharat Kumar • Built with{" "}
+              © 2025 Bharat Kumar Tirumani • Built with{" "}
               <Heart className="w-4 h-4 text-primary fill-primary animate-pulse" />{" "}
               using modern web technologies
             </p>

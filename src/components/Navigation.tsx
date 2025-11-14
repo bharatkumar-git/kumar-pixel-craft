@@ -67,7 +67,7 @@ export const Navigation = () => {
           whileHover={{ scale: 1.05 }}
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
         >
-          Bharat Kumar
+          Bharat Kumar Tirumani
         </motion.div>
 
         <div className="hidden md:flex items-center gap-8">
