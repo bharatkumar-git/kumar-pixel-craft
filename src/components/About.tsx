@@ -11,7 +11,7 @@ const stats = [
   {
     icon: Code2,
     label: "Projects",
-    value: "10+",
+    value: "6+",
   },
   {
     icon: Lightbulb,

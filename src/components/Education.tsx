@@ -14,7 +14,7 @@ const educationData = [
     institution: "Parul University",
     program: "B Tech",
     description: "Electronics and Communication",
-    year: "2020-20224",
+    year: "2020-2024",
   },
 ];
 
