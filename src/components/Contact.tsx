@@ -45,7 +45,7 @@ export const Contact = () => {
 
           <motion.a
             href="mailto:tirumanibharatkumar@gmail.com"
-            className="text-2xl md:text-3xl font-bold text-primary hover:text-primary/80 transition-colors mb-12 inline-block"
+            className="text-lg sm:text-2xl md:text-3xl font-bold text-primary hover:text-primary/80 transition-colors mb-12 inline-block break-words"
             whileHover={{ scale: 1.05 }}
           >
             tirumanibharatkumar@gmail.com
