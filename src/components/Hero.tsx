@@ -41,9 +41,10 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <span className="gradient-text">Bharat Kumar Tirumani</span>
-            <br />
-            <span className="text-foreground/90 text-3xl md:text-5xl">MERN + Python Developer</span>
+            <span className="gradient-text hidden md:inline">Bharat Kumar Tirumani</span>
+            <span className="gradient-text md:hidden">MERN + Python Developer</span>
+            <br className="hidden md:inline" />
+            <span className="text-foreground/90 text-3xl md:text-5xl hidden md:inline">MERN + Python Developer</span>
           </motion.h1>
         </motion.div>
 
